@@ -52,6 +52,7 @@ namespace UI.Tests.Controllers
             HttpCallingService _httpCallingService = new HttpCallingService();
             IQuestionService _questionService = new QuestionService(_httpCallingService);
             QuestionsController controller = new QuestionsController(_questionService, _httpCallingService);
+             
 
             // Act
             ViewResult result = controller.Index() as ViewResult;
