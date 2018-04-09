@@ -1,0 +1,10 @@
+D:\Ezz\KioskITAssignment\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\Ezz\KioskITAssignment\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+D:\Ezz\KioskITAssignment\Services\bin\Debug\Services.dll
+D:\Ezz\KioskITAssignment\Services\bin\Debug\Services.pdb
+D:\Ezz\KioskITAssignment\Services\bin\Debug\DomainModels.dll
+D:\Ezz\KioskITAssignment\Services\bin\Debug\Newtonsoft.Json.dll
+D:\Ezz\KioskITAssignment\Services\bin\Debug\DomainModels.pdb
+D:\Ezz\KioskITAssignment\Services\bin\Debug\Newtonsoft.Json.xml
+D:\Ezz\KioskITAssignment\Services\obj\Debug\Services.dll
+D:\Ezz\KioskITAssignment\Services\obj\Debug\Services.pdb

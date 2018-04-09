@@ -1,0 +1,6 @@
+D:\Ezz\KioskITAssignment\DomainModels\bin\Debug\DomainModels.dll
+D:\Ezz\KioskITAssignment\DomainModels\bin\Debug\DomainModels.pdb
+D:\Ezz\KioskITAssignment\DomainModels\obj\Debug\DomainModels.csprojResolveAssemblyReference.cache
+D:\Ezz\KioskITAssignment\DomainModels\obj\Debug\DomainModels.csproj.CoreCompileInputs.cache
+D:\Ezz\KioskITAssignment\DomainModels\obj\Debug\DomainModels.dll
+D:\Ezz\KioskITAssignment\DomainModels\obj\Debug\DomainModels.pdb

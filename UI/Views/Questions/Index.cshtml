@@ -1,0 +1,85 @@
+﻿@model IEnumerable<DomainModels.Question>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("refresh results", "Index")
+</p>
+<table class="table">
+    <tr>
+        <th></th>
+        <th>
+            @Html.DisplayNameFor(model => model.title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.link)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.is_answered)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.view_count)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.answer_count)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.score)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.last_activity_date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.creation_date)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.ActionLink("Show ", "Show", new { QId = item.question_id })
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.link)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.is_answered)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.view_count)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.answer_count)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.score)
+            </td>
+            <td>
+                @{
+                    var ActivityDate = (new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc)).AddSeconds(item.last_activity_date);
+                }
+                <text>
+                    @ActivityDate
+                </text>
+            </td>
+            <td>
+                @{
+                    var CreationDate = (new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc)).AddSeconds(item.creation_date);
+                }
+                <text>
+                    @CreationDate
+                </text>
+            </td>
+        </tr>
+    }
+
+</table>
+
